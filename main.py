@@ -30,7 +30,7 @@ try:
         print(m.name)
     
     # Usar gemini-1.0-pro en lugar de gemini-pro
-    MODEL_NAME = "gemini-1.0-pro"
+    MODEL_NAME = "gemini-2.0-flash"
     model = genai.GenerativeModel(MODEL_NAME)
 except Exception as e:
     print(f"Error al inicializar el modelo: {str(e)}")

@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],  # Permite todos los headers
 )
 
-GOOGLE_API_KEY = "AIzaSyBNUvWgase8MvyckY8sronDMsWY1kzwLPc"
+GOOGLE_API_KEY = "AIzaSyBw73_JQKl8tzyx8Cp7Ikmpoj75YIFZ3Ho"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
